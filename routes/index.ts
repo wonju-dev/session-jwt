@@ -1,3 +1,4 @@
 import mainPageRouter from "./mainPage";
+import authRouter from "./auth";
 
-export { mainPageRouter };
+export { mainPageRouter, authRouter };
