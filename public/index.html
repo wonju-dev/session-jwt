@@ -7,9 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <input class="username" type="text" placeholder="아이디" />
-    <input class="password" type="password" placeholder="비밀번호" />
-    <button class="btn">로그인</button>
-    <script type="text/javascript" src="index.js"></script>
+    <form id="form" action="http://localhost:3000/login" method="post">
+      <input name="username" type="text" placeholder="아이디" />
+      <input name="password" type="password" placeholder="비밀번호" />
+      <button type="submit" form="form">로그인</button>
+    </form>
   </body>
 </html>
